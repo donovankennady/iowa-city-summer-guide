@@ -1,0 +1,154 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Things to Do in Iowa City During Summer | Student Guide</title>
+  <meta name="description" content="Explore summer activities in Iowa City, from downtown discoveries to creative outings and student-friendly plans.">
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      line-height: 1.7;
+      color: #24302b;
+      background: #f7f7f2;
+    }
+    .notice {
+      padding: 12px 20px;
+      background: #fff0cf;
+      color: #553b16;
+      text-align: center;
+      font-size: 0.9rem;
+    }
+    header {
+      background: #173f35;
+      color: white;
+      padding: 28px 20px;
+      text-align: center;
+    }
+    header h1 { margin: 0; font-size: 2.1rem; }
+    nav {
+      background: #245747;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 8px;
+      padding: 12px;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      padding: 8px 12px;
+      border-radius: 5px;
+    }
+    nav a:hover, nav a:focus {
+      background: #dce9df;
+      color: #173f35;
+    }
+    main {
+      max-width: 900px;
+      margin: auto;
+      padding: 28px 20px;
+    }
+    .intro {
+      background: #e2eee4;
+      padding: 24px;
+      border-radius: 10px;
+    }
+    .activity {
+      background: white;
+      margin: 18px 0;
+      padding: 20px;
+      border-left: 5px solid #7ca68a;
+      border-radius: 6px;
+    }
+    h2, h3 { color: #245747; }
+    footer {
+      background: #173f35;
+      color: white;
+      text-align: center;
+      padding: 22px 18px;
+      font-size: 0.9rem;
+    }
+    footer p { margin: 8px auto; max-width: 850px; }
+    @media (max-width: 600px) {
+      header h1 { font-size: 1.65rem; }
+      nav { flex-direction: column; text-align: center; }
+      main { padding: 20px 14px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="notice">This is a fictional website created for educational purposes as part of MKTG:4400 at the University of Iowa. It is not a real business.</div>
+
+  <header>
+    <h1>Things to Do in Iowa City</h1>
+    <p>Summer ideas for students looking to explore close to campus</p>
+  </header>
+
+  <nav aria-label="Main navigation">
+    <a href="index.html">Home</a>
+    <a href="things-to-do.html">Things to Do</a>
+    <a href="free-activities.html">Free Activities</a>
+    <a href="summer-outdoors.html">Outdoor Adventures</a>
+  </nav>
+
+  <main>
+    <section class="intro">
+      <h2>Looking for Summer Plans?</h2>
+      <p>If you are spending summer in Iowa City, you do not have to travel far to change up your routine. Spend an afternoon downtown, discover a new place to eat, browse local shops, or plan a relaxed day with friends. These ideas are designed for college students who want to make the most of their time in town.</p>
+    </section>
+
+    <section>
+      <article class="activity">
+        <h3>1. Explore Downtown Iowa City</h3>
+        <p>Make a day of walking around downtown. Browse independent shops, stop for an iced coffee, look for a new lunch spot, and enjoy the public spaces around the pedestrian mall. It is an easy option when you want to get out of your apartment without making a complicated plan.</p>
+      </article>
+
+      <article class="activity">
+        <h3>2. Plan a Local Food Adventure</h3>
+        <p>Pick a cuisine you have not tried recently and invite a friend to join you. Compare lunch specials, visit a bakery, or make a list of places you want to try before the semester begins. Decide on a spending limit beforehand to keep the outing affordable.</p>
+      </article>
+
+      <article class="activity">
+        <h3>3. Spend an Afternoon Reading</h3>
+        <p>Bring a book, journal, or class reading to a comfortable public space. A change of scenery can make studying feel less repetitive, and a quiet afternoon can be a nice break from a busy semester.</p>
+      </article>
+
+      <article class="activity">
+        <h3>4. Discover Local Art and Culture</h3>
+        <p>Look for gallery displays, library programs, public art, and cultural events happening around the city. Check venue websites before visiting so you know which exhibits are available and whether registration or admission is required.</p>
+      </article>
+
+      <article class="activity">
+        <h3>5. Organize a Friends' Day Out</h3>
+        <p>Let everyone suggest one activity, then combine a walk, a snack stop, and a visit to a favorite campus area. You can also make it a photo challenge by asking each person to capture three details that represent their summer in Iowa City.</p>
+      </article>
+
+      <article class="activity">
+        <h3>6. Find a Community Event</h3>
+        <p>Keep an eye out for public performances, outdoor markets, seasonal celebrations, and library activities. Community calendars are useful for discovering events that fit your interests and schedule.</p>
+      </article>
+    </section>
+
+    <section>
+      <h2>Make a Simple Summer Bucket List</h2>
+      <p>Choose three things you want to do before the fall semester: try a new restaurant, visit a place you have never explored, and spend a full afternoon outside. Keep the list flexible so you can make spontaneous plans when the weather is nice.</p>
+      <p>For more budget-friendly ideas, visit our <a href="free-activities.html">free things to do in Iowa City guide</a>. If fresh air is more your style, explore our <a href="summer-outdoors.html">outdoor activity guide</a>.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>This is a fictional website created for educational purposes as part of MKTG:4400 at the University of Iowa. It is not a real business.</p>
+    <p>Iowa City Summer Guide for Students | Explore locally. Spend thoughtfully. Enjoy summer.</p>
+    <p>
+      <a href="index.html" style="color:white;">Home</a> |
+      <a href="things-to-do.html" style="color:white;">Things to Do</a> |
+      <a href="free-activities.html" style="color:white;">Free Activities</a> |
+      <a href="summer-outdoors.html" style="color:white;">Outdoor Adventures</a>
+    </p>
+  </footer>
+</body>
+</html>
