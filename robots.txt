@@ -1,0 +1,5 @@
+
+User-agent: *
+Allow: /
+
+Sitemap: https://donovankennady.github.io/iowa-city-summer-guide/sitemap.xml
