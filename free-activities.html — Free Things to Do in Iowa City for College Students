@@ -1,0 +1,168 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Free Things to Do in Iowa City | Student Summer Guide</title>
+  <meta name="description" content="Find free activities in Iowa City for college students, including walks, picnics, public spaces, and creative challenges.">
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      line-height: 1.7;
+      color: #24302b;
+      background: #f7f7f2;
+    }
+    .notice {
+      padding: 12px 20px;
+      background: #fff0cf;
+      color: #553b16;
+      text-align: center;
+      font-size: 0.9rem;
+    }
+    header {
+      background: #173f35;
+      color: white;
+      padding: 28px 20px;
+      text-align: center;
+    }
+    header h1 { margin: 0; font-size: 2.1rem; }
+    nav {
+      background: #245747;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 8px;
+      padding: 12px;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      padding: 8px 12px;
+      border-radius: 5px;
+    }
+    nav a:hover, nav a:focus {
+      background: #dce9df;
+      color: #173f35;
+    }
+    main {
+      max-width: 900px;
+      margin: auto;
+      padding: 28px 20px;
+    }
+    .intro {
+      background: #e2eee4;
+      padding: 24px;
+      border-radius: 10px;
+    }
+    .activity {
+      background: white;
+      margin: 18px 0;
+      padding: 20px;
+      border: 1px solid #d9e1da;
+      border-radius: 8px;
+    }
+    h2, h3 { color: #245747; }
+    .tip {
+      background: #fff0cf;
+      padding: 18px;
+      border-radius: 8px;
+    }
+    footer {
+      background: #173f35;
+      color: white;
+      text-align: center;
+      padding: 22px 18px;
+      font-size: 0.9rem;
+    }
+    footer p { margin: 8px auto; max-width: 850px; }
+    @media (max-width: 600px) {
+      header h1 { font-size: 1.65rem; }
+      nav { flex-direction: column; text-align: center; }
+      main { padding: 20px 14px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="notice">This is a fictional website created for educational purposes as part of MKTG:4400 at the University of Iowa. It is not a real business.</div>
+
+  <header>
+    <h1>Free Things to Do in Iowa City</h1>
+    <p>Make summer memories without spending your whole paycheck</p>
+  </header>
+
+  <nav aria-label="Main navigation">
+    <a href="index.html">Home</a>
+    <a href="things-to-do.html">Things to Do</a>
+    <a href="free-activities.html">Free Activities</a>
+    <a href="summer-outdoors.html">Outdoor Adventures</a>
+  </nav>
+
+  <main>
+    <section class="intro">
+      <h2>Enjoy Iowa City on a Student Budget</h2>
+      <p>Summer fun does not have to mean expensive tickets, restaurant bills, or weekend trips. With a little creativity, college students can explore their surroundings, spend time with friends, and try something different while keeping costs down.</p>
+    </section>
+
+    <section>
+      <article class="activity">
+        <h3>1. Walk the Downtown Pedestrian Mall</h3>
+        <p>Explore downtown on foot, enjoy the atmosphere, and browse storefronts without needing to buy anything. Turn the walk into a mini scavenger hunt by looking for interesting murals, unique window displays, or your favorite public art.</p>
+      </article>
+
+      <article class="activity">
+        <h3>2. Have a Picnic with Friends</h3>
+        <p>Pack snacks and drinks from home, bring a blanket, and find an appropriate public green space for an outdoor lunch. Everyone can contribute one item, making the outing simple and inexpensive.</p>
+      </article>
+
+      <article class="activity">
+        <h3>3. Visit a Public Library</h3>
+        <p>Browse books, find a quiet place to read, or check the library's calendar for public programs. A library visit can be a relaxing way to spend a hot afternoon while discovering something new.</p>
+      </article>
+
+      <article class="activity">
+        <h3>4. Take a Campus Photo Walk</h3>
+        <p>Explore campus with your phone or camera and capture details you normally overlook. Try photographing architectural features, gardens, interesting shadows, or your favorite study spots. Share your favorite shots with friends afterward.</p>
+      </article>
+
+      <article class="activity">
+        <h3>5. Create a DIY Game Night</h3>
+        <p>Invite friends over for trivia, card games, charades, or a movie you already have access to. Ask everyone to bring a snack they already have at home and choose a theme for the evening.</p>
+      </article>
+
+      <article class="activity">
+        <h3>6. Explore Public Trails and Green Spaces</h3>
+        <p>Walk, jog, or relax outdoors at a suitable public trail or park. Bring a reusable water bottle and plan your route ahead of time. Check posted rules and trail conditions before visiting.</p>
+      </article>
+
+      <article class="activity">
+        <h3>7. Start a Summer Reading Challenge</h3>
+        <p>Choose a book you have been meaning to read and set a small daily goal. Meet a friend to discuss chapters each week, or keep a list of favorite quotes and ideas. Borrowing books can help keep this hobby free.</p>
+      </article>
+    </section>
+
+    <section class="tip">
+      <h2>Student Budget Tip</h2>
+      <p>Plan one free activity each week and save paid outings for the experiences you are most excited about. Check event listings carefully because some activities advertised as free may require registration or charge for optional extras.</p>
+    </section>
+
+    <section>
+      <h2>Keep Exploring</h2>
+      <p>Looking for more ideas beyond free activities? Browse our guide to <a href="things-to-do.html">things to do in Iowa City during summer</a>, or visit our <a href="summer-outdoors.html">outdoor adventures page</a> for more ways to enjoy warm weather.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>This is a fictional website created for educational purposes as part of MKTG:4400 at the University of Iowa. It is not a real business.</p>
+    <p>Iowa City Summer Guide for Students | Explore locally. Spend thoughtfully. Enjoy summer.</p>
+    <p>
+      <a href="index.html" style="color:white;">Home</a> |
+      <a href="things-to-do.html" style="color:white;">Things to Do</a> |
+      <a href="free-activities.html" style="color:white;">Free Activities</a> |
+      <a href="summer-outdoors.html" style="color:white;">Outdoor Adventures</a>
+    </p>
+  </footer>
+</body>
+</html>
