@@ -1,0 +1,166 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Iowa City Summer Guide for Students</title>
+  <meta name="description" content="Discover summer activities, affordable outings, and outdoor adventures for college students in Iowa City.">
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      line-height: 1.7;
+      color: #24302b;
+      background: #f7f7f2;
+    }
+    .notice {
+      padding: 12px 20px;
+      background: #fff0cf;
+      color: #553b16;
+      text-align: center;
+      font-size: 0.9rem;
+    }
+    header {
+      background: #173f35;
+      color: white;
+      padding: 28px 20px;
+      text-align: center;
+    }
+    header h1 { margin: 0; font-size: 2.2rem; }
+    header p { margin-bottom: 0; }
+    nav {
+      background: #245747;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 8px;
+      padding: 12px;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      padding: 8px 12px;
+      border-radius: 5px;
+    }
+    nav a:hover, nav a:focus {
+      background: #dce9df;
+      color: #173f35;
+    }
+    main {
+      max-width: 1000px;
+      margin: auto;
+      padding: 28px 20px;
+    }
+    .hero {
+      background: #e2eee4;
+      border-radius: 12px;
+      padding: 35px 28px;
+      margin-bottom: 28px;
+    }
+    h2, h3 { color: #245747; }
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+      gap: 18px;
+    }
+    .card {
+      background: white;
+      padding: 22px;
+      border-radius: 10px;
+      border: 1px solid #d9e1da;
+    }
+    .card a {
+      color: #245747;
+      font-weight: bold;
+    }
+    .button {
+      display: inline-block;
+      background: #245747;
+      color: white;
+      padding: 10px 16px;
+      border-radius: 6px;
+      text-decoration: none;
+    }
+    footer {
+      background: #173f35;
+      color: white;
+      text-align: center;
+      padding: 22px 18px;
+      font-size: 0.9rem;
+    }
+    footer p { margin: 8px auto; max-width: 850px; }
+    @media (max-width: 600px) {
+      header h1 { font-size: 1.7rem; }
+      .hero { padding: 24px 18px; }
+      nav { flex-direction: column; text-align: center; }
+      main { padding: 20px 14px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="notice">This is a fictional website created for educational purposes as part of MKTG:4400 at the University of Iowa. It is not a real business.</div>
+
+  <header>
+    <h1>Iowa City Summer Guide</h1>
+    <p>Your student-friendly guide to making the most of summer in Iowa City</p>
+  </header>
+
+  <nav aria-label="Main navigation">
+    <a href="index.html">Home</a>
+    <a href="things-to-do.html">Things to Do</a>
+    <a href="free-activities.html">Free Activities</a>
+    <a href="summer-outdoors.html">Outdoor Adventures</a>
+  </nav>
+
+  <main>
+    <section class="hero">
+      <h2>Make This Summer Count</h2>
+      <p>Summer in Iowa City offers plenty of ways to explore, relax, and spend time with friends. Whether you are staying near campus, taking summer classes, or visiting for a few weeks, you can find something fun to do without planning a big trip.</p>
+      <p>From downtown coffee shops and local bookstores to scenic walking trails and community events, this guide helps college students plan a memorable summer on any budget.</p>
+      <a class="button" href="things-to-do.html">Explore Summer Ideas</a>
+    </section>
+
+    <section>
+      <h2>Explore the Guide</h2>
+      <div class="cards">
+        <article class="card">
+          <h3>Things to Do in Iowa City</h3>
+          <p>Find ideas for afternoons downtown, creative outings, local food stops, and casual plans with friends.</p>
+          <a href="things-to-do.html">Discover activities →</a>
+        </article>
+
+        <article class="card">
+          <h3>Free Things to Do</h3>
+          <p>Enjoy your summer without stretching your student budget with low-cost outings and simple local adventures.</p>
+          <a href="free-activities.html">Explore free activities →</a>
+        </article>
+
+        <article class="card">
+          <h3>Outdoor Adventures</h3>
+          <p>Spend more time outside with walks, picnics, bike rides, and ideas for enjoying warm-weather days.</p>
+          <a href="summer-outdoors.html">Get outside →</a>
+        </article>
+      </div>
+    </section>
+
+    <section>
+      <h2>Your Summer, Your Way</h2>
+      <p>You do not need a packed schedule to enjoy Iowa City. Try one new place each week, plan a picnic with classmates, explore a neighborhood you have not visited, or set aside an afternoon to read outdoors. A few small plans can make a summer in town feel like an adventure.</p>
+      <p>Before heading out, check current opening hours, event details, transportation options, and any admission costs. Activities and schedules may change throughout the season.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>This is a fictional website created for educational purposes as part of MKTG:4400 at the University of Iowa. It is not a real business.</p>
+    <p>Iowa City Summer Guide for Students | Explore locally. Spend thoughtfully. Enjoy summer.</p>
+    <p>
+      <a href="index.html" style="color:white;">Home</a> |
+      <a href="things-to-do.html" style="color:white;">Things to Do</a> |
+      <a href="free-activities.html" style="color:white;">Free Activities</a> |
+      <a href="summer-outdoors.html" style="color:white;">Outdoor Adventures</a>
+    </p>
+  </footer>
+</body>
+</html>
