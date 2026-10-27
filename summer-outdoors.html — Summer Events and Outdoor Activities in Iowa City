@@ -1,0 +1,169 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Summer Outdoor Activities in Iowa City | Student Guide</title>
+  <meta name="description" content="Discover outdoor activities and ways to enjoy summer in Iowa City, including bike rides, picnics, walks, and community events.">
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      line-height: 1.7;
+      color: #24302b;
+      background: #f7f7f2;
+    }
+    .notice {
+      padding: 12px 20px;
+      background: #fff0cf;
+      color: #553b16;
+      text-align: center;
+      font-size: 0.9rem;
+    }
+    header {
+      background: #173f35;
+      color: white;
+      padding: 28px 20px;
+      text-align: center;
+    }
+    header h1 { margin: 0; font-size: 2.1rem; }
+    nav {
+      background: #245747;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 8px;
+      padding: 12px;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      padding: 8px 12px;
+      border-radius: 5px;
+    }
+    nav a:hover, nav a:focus {
+      background: #dce9df;
+      color: #173f35;
+    }
+    main {
+      max-width: 900px;
+      margin: auto;
+      padding: 28px 20px;
+    }
+    .intro {
+      background: #e2eee4;
+      padding: 24px;
+      border-radius: 10px;
+    }
+    .activity {
+      background: white;
+      margin: 18px 0;
+      padding: 20px;
+      border-left: 5px solid #7ca68a;
+      border-radius: 6px;
+    }
+    h2, h3 { color: #245747; }
+    .checklist {
+      background: #fff0cf;
+      padding: 20px 24px;
+      border-radius: 8px;
+    }
+    footer {
+      background: #173f35;
+      color: white;
+      text-align: center;
+      padding: 22px 18px;
+      font-size: 0.9rem;
+    }
+    footer p { margin: 8px auto; max-width: 850px; }
+    @media (max-width: 600px) {
+      header h1 { font-size: 1.65rem; }
+      nav { flex-direction: column; text-align: center; }
+      main { padding: 20px 14px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="notice">This is a fictional website created for educational purposes as part of MKTG:4400 at the University of Iowa. It is not a real business.</div>
+
+  <header>
+    <h1>Summer Outdoor Adventures</h1>
+    <p>Fresh air, warm-weather plans, and local experiences</p>
+  </header>
+
+  <nav aria-label="Main navigation">
+    <a href="index.html">Home</a>
+    <a href="things-to-do.html">Things to Do</a>
+    <a href="free-activities.html">Free Activities</a>
+    <a href="summer-outdoors.html">Outdoor Adventures</a>
+  </nav>
+
+  <main>
+    <section class="intro">
+      <h2>Get Outside This Summer</h2>
+      <p>Longer days and warmer weather make summer a great time to explore Iowa City outdoors. Whether you enjoy a peaceful walk, an afternoon with friends, or a little adventure on two wheels, there are plenty of ways to build outdoor time into your routine.</p>
+    </section>
+
+    <section>
+      <article class="activity">
+        <h3>1. Take a Scenic Walk</h3>
+        <p>Choose a public trail or walking route and enjoy the scenery at your own pace. Invite a friend, listen to a podcast, or leave your headphones behind and take in the sounds around you. Check the route and conditions before leaving.</p>
+      </article>
+
+      <article class="activity">
+        <h3>2. Plan a Park Picnic</h3>
+        <p>Pack sandwiches, fruit, and a cold drink for a relaxed outdoor meal. Bring a blanket, a book, or a deck of cards. Remember to clean up after yourself and follow any posted park rules.</p>
+      </article>
+
+      <article class="activity">
+        <h3>3. Go for a Bike Ride</h3>
+        <p>Explore a suitable local bike route and enjoy a different view of the area. Wear a helmet, bring water, check your tires and brakes, and choose a route that matches your comfort level. Follow road signs and trail etiquette.</p>
+      </article>
+
+      <article class="activity">
+        <h3>4. Watch the Sunset</h3>
+        <p>Find a safe, permitted public spot with an open view and plan a low-key evening outdoors. Bring a light jacket, take a few photos, and enjoy a break from screens before heading home.</p>
+      </article>
+
+      <article class="activity">
+        <h3>5. Look for Outdoor Community Events</h3>
+        <p>Check local event calendars for seasonal markets, public performances, outdoor art activities, and neighborhood gatherings. Confirm dates, locations, admission details, and weather updates before making plans.</p>
+      </article>
+
+      <article class="activity">
+        <h3>6. Try a Nature Photo Challenge</h3>
+        <p>Take your phone on a walk and capture five things: a flower, an interesting tree, a reflection, a pattern, and something that makes you smile. Compare pictures with friends or create a personal summer photo album.</p>
+      </article>
+    </section>
+
+    <section class="checklist">
+      <h2>Before You Head Outside</h2>
+      <ul>
+        <li>Bring drinking water and use sun protection.</li>
+        <li>Check the weather forecast and any severe-weather alerts.</li>
+        <li>Wear comfortable shoes and clothing suited to the activity.</li>
+        <li>Check park hours, trail conditions, and posted rules.</li>
+        <li>Carry your phone and let someone know your plans for longer outings.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Build Your Summer Routine</h2>
+      <p>Try scheduling one outdoor activity each week. Rotate between a walk, picnic, bike ride, and community event to keep your routine interesting. You can also combine outdoor plans with our suggestions for <a href="free-activities.html">free student activities</a> and other <a href="things-to-do.html">Iowa City summer outings</a>.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>This is a fictional website created for educational purposes as part of MKTG:4400 at the University of Iowa. It is not a real business.</p>
+    <p>Iowa City Summer Guide for Students | Explore locally. Spend thoughtfully. Enjoy summer.</p>
+    <p>
+      <a href="index.html" style="color:white;">Home</a> |
+      <a href="things-to-do.html" style="color:white;">Things to Do</a> |
+      <a href="free-activities.html" style="color:white;">Free Activities</a> |
+      <a href="summer-outdoors.html" style="color:white;">Outdoor Adventures</a>
+    </p>
+  </footer>
+</body>
+</html>
